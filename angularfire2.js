@@ -1,4 +1,4 @@
-import { initializeApp } from 'firebase';
+import { initializeApp, database } from 'firebase';
 import * as utils from './utils';
 import { FirebaseConfig, FirebaseApp, WindowLocation, FirebaseUserConfig, FirebaseAuthConfig } from './tokens';
 import { Inject, Injectable, NgModule } from '@angular/core';
