@@ -964,7 +964,7 @@ function _getFirebase(config) {
         return firebase.initializeApp(config);
     }
     catch (e) {
-        return firebase.database();
+        return firebase.app();
     }
 }
 function _getWindowLocation() {
